@@ -1,0 +1,169 @@
+/* GLOBAL STYLES */
+.breadcrumb-link {
+    text-decoration: none;
+    color: #363636;
+    font-size: 13px;
+    font-family: 'Roboto mono';
+    transition: .2s ease-in-out color;
+} 
+.breadcrumb-link:hover {
+    color: #f26b38;
+}
+.breadcrumbs {
+    font-family: 'Roboto mono';
+    font-size: 13px;
+}
+/* END OF GLOBAL STYLES */
+body {
+    margin: 0;
+    padding: 0;
+    border: 30px solid #f26b38;
+    box-sizing: border-box;
+}
+.header .header-navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-navigation .logo .logo-link .logo-img {
+    width: 150px;
+}
+.header .header-navigation .header-navigation-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    /* margin-top: 30px; */
+    align-items: center;
+}
+.header .header-navigation .header-navigation-list .header-navigation-list_item {
+    margin: 0px 30px;
+}
+.header .header-navigation .header-navigation-list .header-navigation-list_item .header-navigation-list_item-link {
+    text-decoration: none;
+    color: #363636;
+    font-family: 'Roboto mono';
+    font-size: 13px;
+    font-weight: 400;
+    transition: ease-in-out .2s background;
+}
+.header .header-navigation .header-navigation-list .header-navigation-list_item .header-navigation-list_item-link.active {
+    color: #f26b38;
+}
+.header .header-navigation .header-navigation-list .header-navigation-list_item .header-navigation-list_item-link:hover {
+    color: #f26b38;
+}
+.header .header-navigation .header-navigation-list .header-navigation-list_item .header-navigation-list_item-link--bordered {
+    border: 1px solid #dddddd;
+    padding: 0 30px;
+    line-height: 40px;
+    display: inline-block;
+}
+.header .header-navigation .header-navigation-list .header-navigation-list_item .header-navigation-list_item-link--bordered:hover {
+    background: #f26b38;
+    color: #ffffff; 
+}
+.main .about-me, .about-page {
+    text-align: center;
+}
+.main .about-me_name, .about-page-title {
+    font-family: 'Roboto mono';
+    font-size: 68px;
+    color: #141414;
+    text-transform: uppercase;
+    margin: 180px 0px 0px 0px;
+}
+.main .about-me_major {
+    font-family: 'Roboto mono';
+    font-size: 13px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 250px 30px 0px 30px;
+}
+.footer .copyright .copyright-text {
+    font-family: 'Roboto mono';
+    font-size: 11px;
+    color: #999999;
+}
+.footer .socials-list {
+    flex-direction: row;
+    list-style-type: none;
+    display: inline-flex;
+}
+.footer .socials-list .socials-list-item {
+    margin-left: 20px;
+}
+.footer .socials-list .socials-list-item .socials-list-item-link {
+    text-decoration: none;
+}
+.footer .socials-list .socials-list-item .social-list-item-link .ion-social-dribbble:before {
+    color: #000000;
+}
+.footer .socials-list .socials-list-item .social-list-item-link .ion-social-twitter:before {
+    color: #000000;
+}
+.footer .socials-list .socials-list-item .social-list-item-link .ion-social-github:before {
+    color: #000000;
+}
+.footer .socials-list .socials-list-item .social-list-item-link .ion-social-instagram:before {
+    color: #000000;
+}
+
+/* BLOG STYLES BEGIN */
+.main .main-video-section {
+    margin-top: 70px;
+}
+.main .main-video-section #video {
+    text-align: center;
+    margin: 0 auto;
+}
+/* BLOG STYLES END */
+
+/* RESUME PAGE STYLES */
+.about {
+    padding: 0 80px 80px 80px;
+}
+.about-wrapper {
+    max-width: 900px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 250px;
+}
+.about-info {
+    display: inline-flex;
+    align-items: center;
+}
+.about .about-wrapper .title .title-text {
+    margin-left: 20px;
+    line-height: 18px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline;
+}
+.about .about-wrapper .title .title-text:after {
+    content: '';
+    background: #ede574;
+    width: inherit;
+    height: inherit;
+    display: inherit;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.about .title .title-text, .about-info .about-info-description {
+    font-size: 13px;
+    color: #141414;
+    font-family: 'Roboto mono';
+    line-height: 23px;
+    margin: 30px 0px;
+}
+.about .about-info .about-info-img {
+    border-radius: 100%;
+    margin: 0px 20px;
+    height: 100%;
+}
